@@ -1,0 +1,101 @@
+body{
+    background-color: balck;
+    margin: 10px;
+
+}
+
+#heading{
+    color:red;
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: Arial, sens-sarif;
+      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+      display: flex;
+      justify-content: center;
+      background-color: white;
+      border: 2px solid black;
+      letter-spacing: 10px;
+      
+}
+
+div>#r, #red1{
+    color:red;
+    text-shadow: 2px 3px 4px green;
+    
+    
+}
+div>#g, #green1{
+    color:green;
+    text-shadow: 2px 3px 4px green;
+}
+div>#b, #blue1{
+    color:blue;
+    text-shadow: 2px 3px 4px blue;
+}
+
+#red1, #blue1, #green1{
+    
+    font-weight: bold;
+    letter-spacing: 2px;
+    background-color: white;
+    width: 60px;
+    text-align: center;
+    text-decoration-color: black
+    text-style:underline;
+    border:2px solid black;
+
+    
+    
+   
+
+}
+
+#ranges{
+    display: grid;
+    justify-content: center;
+    margin-top:100px;
+
+}
+
+input[type="range"]{
+    
+
+}
+
+div>input{
+    padding: 30px;
+    color:white;
+    text-shadow: 2px 3px 4px black;
+    
+}
+
+#rgbn{
+    background-color: pink;
+    color:black;
+    font-weight: bold;
+    letter-spacing:4px;
+    font-family:monospace;
+    
+
+
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    font-weight: bold;
+    margin-bottom:10px;
+    font-family: Times of India, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.blue::-webkit-slider-thumb{
+ -webkit-appearance:none;
+    overflow:hidden;
+    border: 1px solid black;
+    background:blue;
+    opacity:;
+}
+
+h1{
+    color:white;
+}
